@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PPP - Cache Attack</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+  <div class="container">
+    <hr />
+    <textarea class="form-control" id="targets" rows="10" placeholder="https://example.org/&#10;https://www.google.com/&#10;https://www.youtube.com/"></textarea>
+    <hr />
+    <div class="text-center">
+      <input type="text" id="timeoutInput" size="6" placeholder="timeout" />
+      <button class="btn btn-primary" id="startBtn">Start</button>
+      <button class="btn btn-secondary" id="clearBtn">Clear</button>
+    </div>
+    <hr />
+    <p align="center" id="status"></p>
+    <p align="center"><b>Success Count: </b><span id="success_count"></span></p>
+    <hr />
+
+    <table id="result" class="table">
+      <thead>
+        <tr>
+          <th>URL</th>
+          <th>RESULT</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+    <hr />
+    <div id="test_area"></div>
+  </div>
+
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then(function(registration) {
+        console.log('Service Worker registration successful with scope: ',
+        registration.scope);
+      })
+      .catch(function(err) {
+        console.log('Service Worker registration failed: ', err);
+      });
+  }
+  </script>
+</body>
+</html>
