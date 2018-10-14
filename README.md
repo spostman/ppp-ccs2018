@@ -17,11 +17,10 @@ understanding.
 
 
 # Citation
-If you use OpenWPM in your research, please cite our CCS 2016 publication on the infrastructure. You can use the following BibTeX.
 
-@inproceedings{lee-ccs2018,
+@inproceedings{lee-ccs2018, 
     author    = "Jiyeon Lee and Hayeon Kim and Junghwan Park and Insik Shin and Sooel Son",
     title     = "{Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications}",
     booktitle = {Proceedings of the ACM Conference on Computer and Communications Security},
-    year = {20018},
-}8
+    year = {2018},
+}
