@@ -15,6 +15,9 @@ abuses service workers. Defenses and recommendations to mitigate
 the identified security and privacy risks are suggested with in-depth
 understanding.
 
+# Paper
+[CCS 2018 publication](https://github.com/spostman/ppp-ccs2018/raw/master/paper/ppp-ccs2018.pdf)
+
 
 # Citation
 
