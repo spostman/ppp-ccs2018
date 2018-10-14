@@ -18,9 +18,10 @@ understanding.
 
 # Citation
 
-@inproceedings{lee-ccs2018, 
-    author    = "Jiyeon Lee and Hayeon Kim and Junghwan Park and Insik Shin and Sooel Son",
-    title     = "{Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications}",
-    booktitle = {Proceedings of the ACM Conference on Computer and Communications Security},
-    year = {2018},
-}
+     @inproceedings{lee-ccs2018, 
+         author    = "Jiyeon Lee and Hayeon Kim and Junghwan Park and Insik Shin and Sooel Son",
+         title     = "{Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications}",
+         booktitle = {Proceedings of the ACM Conference on Computer and Communications Security},
+         year = {2018},
+     }
+
